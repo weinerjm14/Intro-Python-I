@@ -11,11 +11,14 @@ import sys
 
 # Print out the command line arguments in sys.argv, one per line:
 
-print(sys.argv)  # get clarification on this one?
+
+for x in sys.argv:
+    print(x)
+# get clarification on this one?
 # Print out the OS platform you're using:
 # YOUR CODE HERE
-x = sys.platform
-print(x)
+
+print(sys.platform)
 # Print out the version of Python you're using:
 # YOUR CODE HERE
 print(sys.version)
