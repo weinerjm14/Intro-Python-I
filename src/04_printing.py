@@ -16,6 +16,6 @@ z = "I like turtles!"
 
 # Finally, print the same thing using an f-string
 
-print("x is %s, y is %s, z is %s" % (x, y, z))
-print(("x is {x}, y is {y}, z is {z}").format(x, y, z))
-print(f"x is {x}, y is {y}, z is {z}")
+print('x is %s, y is %0.2f, z is "%s"' % (x, y, z))
+print(('x is {}, y is {:0.2F}, z is "{}"').format(x, y, z))
+print(f'x is {x}, y is {y:0.2F}, z is "{z}"')

@@ -35,4 +35,5 @@ waypoints[0].update({"lon": -130, "name": "not a real place"})
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
-print(waypoints)
+for waypoint in waypoints:
+    print(f"{waypoint['lat']}, {waypoint['lon']}, {waypoint['name']}")

@@ -11,7 +11,7 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = [
-    i for i in range(6)
+    i for i in range(1,6)
 ]  # must be one number higher than the last number you want to print
 
 print(y)
