@@ -37,3 +37,5 @@ waypoints[0].update({"lon": -130, "name": "not a real place"})
 # YOUR CODE HERE
 for waypoint in waypoints:
     print(f"{waypoint['lat']}, {waypoint['lon']}, {waypoint['name']}")
+# print(waypoint.values)
+
